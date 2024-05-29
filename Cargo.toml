@@ -1,0 +1,6 @@
+[package]
+name = "rusty_metal_raspberry_pi"
+version = "0.1.0"
+authors = ["tim"]
+
+[dependencies]

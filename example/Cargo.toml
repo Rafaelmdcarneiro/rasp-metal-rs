@@ -1,0 +1,11 @@
+[package]
+name = "testing"
+version = "0.1.0"
+authors = ["tim"]
+
+[lib]
+crate-type = ["staticlib"]
+path = "src/kernel.rs"
+
+[dependencies]
+rusty_metal_raspberry_pi = { path = ".." }
